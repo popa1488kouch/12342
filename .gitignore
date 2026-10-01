@@ -1,2 +1,5 @@
 issues.csv
 missingissues.csv
+   node_modules/
+   .env
+   dist/
