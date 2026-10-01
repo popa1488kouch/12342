@@ -5,7 +5,7 @@ document.getElementById("check-btn").addEventListener("click", () => {
 
     // BUG: userInput is a STRING ("7") but secretNum is a NUMBER (7).
     // Strict equality (===) will return false.
-    if (userInput === secretNum) {
+    if (parseInt(userInput) === secretNum) {
         feedback.innerText = "Correct! You win!";
         feedback.style.color = "green";
     } else {

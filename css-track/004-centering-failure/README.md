@@ -1,12 +1,11 @@
-# Bug #004: Left-Leaning Card
+# Bug #005: The Mathematical Mystery
 
 ### The Goal
-The "Sign Up" card should be centered horizontally on the page.
+The two boxes should sit side-by-side, each taking exactly 50% of the screen.
 
 ### The Symptoms
-The card spans the entire width of the page, or stays stuck to the left.
+The right box is dropping down to the next line because they are too wide together.
 
 ### Hints
-1. `margin: 0 auto` only works if the element has a specific `width` smaller than its container.
-2. If `width` is not set, it defaults to `100%` for `div` elements, leaving no margin to distribute.
-3. Try setting `width: 300px;`.
+1. By default, `width` doesn't include padding or borders.
+2. Read about `box-sizing: border-box`.

@@ -14,5 +14,5 @@ btn.addEventListener("click", () => {
     document.body.style.color = "white";
     
     // BUG: Setting key as 'user-theme' (dash) but getting as 'user_theme' (underscore)
-    localStorage.setItem("user-theme", "dark");
+    localStorage.setItem("user_theme", "dark");
 });
